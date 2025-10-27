@@ -245,7 +245,7 @@
                     ]
                 ],
 
-                [
+                /* [
                     'type' => 'link',
                     'title' => 'Stock bajo',
                     'route' => 'admin.reports.low-stock',
@@ -253,7 +253,7 @@
                     'can' => [
                         'read-low-stock',
                     ]
-                ],
+                ], */
 
 
 
