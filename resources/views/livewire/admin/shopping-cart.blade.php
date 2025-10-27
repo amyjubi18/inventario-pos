@@ -147,20 +147,22 @@
                                 <td class="px-6 py-4">
                                     <img :src="product.image" :alt="product.name" class="object-cover w-16 h-16 rounded">
                                 </td>
-                                <td class="px-6 py-4" x-text="product.name"></td>
-                                <td class="px-6 py-4">
+                                <td class="px-6 py-4" x-text="product.name">
+
+                                </td>
+                                <td class="py-4 mr-4 ">
                                     <x-wire-input
                                         x-model="product.quantity"
                                         type="number"
-                                        class="w-20"
+
                                         min="1"
                                     />
                                 </td>
-                                <td class="px-6 py-4">
+                                <td class="py-4 ">
                                     <x-wire-input
                                         x-model="product.price"
                                         type="number"
-                                        class="w-28"
+                                        class="w-20"
                                         step="0.01"
                                         min="0"
                                     />
