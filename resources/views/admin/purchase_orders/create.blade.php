@@ -1,0 +1,22 @@
+<x-admin-layout
+title="Ordenes de Compra | Inventario POS"
+:breadcrumbs="[
+    [
+        'name' => 'Dashboard',
+        'href' => route('admin.dashboard')
+    ],
+    [
+        'name' => 'Ordenes de Compra',
+        'href' => route('admin.purchase_orders.index')
+
+    ],
+    [
+        'name' => 'Nuevo'
+    ]
+
+]"
+>
+
+@livewire('admin.purchase-order-create')
+
+</x-admin-layout>
